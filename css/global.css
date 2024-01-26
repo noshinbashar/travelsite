@@ -2,26 +2,53 @@ body {
     width:1280px;
     font-family: Verdana;
 }
-.nav {
+
+header {
     background-color: #ffff;
+    color: #335576;
+}
+
+.logo {
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+.nav { 
+    display: inline-block;   
 }
 
 .nav ul {
     display: flex;
-    justify-content: flex-end;
 }
 
 .nav ul li {
-    padding: 0;
-    margin: 0;
     text-decoration: none;
     list-style: none;
-    box-sizing: border-box;
-    display: flex;
-    margin-right: 0.5%;
-    display: inline-block;
+    margin-right: 5%;
+    color: black; 
 }
 
-footer{
+footer {
     background-color: #FEFAF5;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #335576;
+    padding-left: 10%;
+    padding-right:10%;
+}
+.sub {
+    color: #DB7A4E;
+    font-size: x-small;
+}
+
+.weekend {
+    margin-top:5%;
+}
+.icon {
+    height:12%;
+    margin-right:10%;
+    padding-top:10%;
 }
