@@ -8,9 +8,38 @@ button {
     color: white;
 }
 
-.recomendation h2 {
+.destination h2{
     color: #335576;
 }
-.photo {
-    width:10%;
+
+.container{
+    display: flex;
+    justify-content:space-evenly;
 }
+
+
+.hawaii {
+    height: 25rem;
+    width:15rem;
+    background-image:url(../assets/images/hawaii.jpg);
+    background-size: cover;
+    direction:rtl;  
+}
+
+.iceland {
+    height: 25rem;
+    width:15rem;
+    background-image:url(../assets/images/iceland.jpg);
+    background-size: cover;
+    direction:rtl;  
+}
+.greece {
+    height: 25rem;
+    width:15rem;
+    background-image:url(../assets/images/greece.jpg);
+    background-size: cover;
+    direction:rtl;  
+}
+/* .photo {
+    width:10%;
+} */
