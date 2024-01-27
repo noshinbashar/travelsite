@@ -1,0 +1,23 @@
+.hawaii {
+    background-image: url(../assets/images/hawaii.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 10%;
+}
+
+.container div {
+    background-color: white;
+    padding: 3%;
+}
+
+.container ul li {
+    text-decoration: none;
+    list-style: none;
+}
