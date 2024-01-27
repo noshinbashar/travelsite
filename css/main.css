@@ -1,14 +1,32 @@
 .hero {
     background-color: #FEFAF5;
     color: #335576;
-    padding:4%;
+    padding:5%;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0; */
 }
+
+.image {
+    height: 20rem;  
+    justify-content: flex-end;
+}
+
 button {
     background-color: #DB7A4E;
     color: white;
+    padding: 0.5em 2em;
+    border-radius: 2em;
+    border: none;
+    outline:none;
+    margin-top: 2%;
 }
 
-.destination h2{
+.destination {
+    padding: 5% 10%;
+}
+
+.destination h2 {
     color: #335576;
 }
 
@@ -20,25 +38,28 @@ button {
 
 .hawaii {
     height: 25rem;
-    width:15rem;
+    width:17rem;
     background-image:url(../assets/images/hawaii.jpg);
     background-size: cover;
-    direction:rtl;  
+    direction:rtl;
+    border-radius: 2%;
 }
 
 .iceland {
     height: 25rem;
-    width:15rem;
+    width:17rem;
     background-image:url(../assets/images/iceland.jpg);
     background-size: cover;
-    direction:rtl;  
+    direction:rtl;
+    border-radius: 2%;  
 }
 .greece {
     height: 25rem;
-    width:15rem;
+    width:17rem;
     background-image:url(../assets/images/greece.jpg);
     background-size: cover;
-    direction:rtl;  
+    direction:rtl;
+    border-radius: 2%;  
 }
 /* .photo {
     width:10%;

@@ -1,5 +1,5 @@
 body {
-    width:1280px;
+    width: 1280px;
     font-family: Verdana;
 }
 
@@ -17,8 +17,8 @@ header {
     padding-left: 5%;
 }
 
-.nav { 
-    display: inline-block;  
+.nav {
+    display: inline-block;
     padding-right: 10%;
 }
 
@@ -30,11 +30,12 @@ header {
     text-decoration: none;
     list-style: none;
     margin-right: 5%;
-    
+
 }
+
 .nav ul li a {
     text-decoration: none;
-    color: rgb(29, 28, 28); 
+    color: rgb(29, 28, 28);
 }
 
 footer {
@@ -45,19 +46,20 @@ footer {
     display: flex;
     justify-content: space-between;
     color: #335576;
-    padding-left: 10%;
-    padding-right:10%;
+    padding: 2% 10%;
 }
+
 .sub {
     color: #DB7A4E;
     font-size: x-small;
 }
 
 .weekend {
-    margin-top:5%;
+    margin-top: 5%;
 }
+
 .icon {
-    height:12%;
-    margin-right:10%;
-    padding-top:10%;
+    height: 12%;
+    margin-right: 10%;
+    padding-top: 10%;
 }
