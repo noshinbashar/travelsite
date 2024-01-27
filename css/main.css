@@ -1,3 +1,16 @@
 .hero {
     background-color: #FEFAF5;
+    color: #335576;
+    padding:4%;
+}
+button {
+    background-color: #DB7A4E;
+    color: white;
+}
+
+.recomendation h2 {
+    color: #335576;
+}
+.photo {
+    width:10%;
 }

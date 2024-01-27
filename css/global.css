@@ -6,6 +6,10 @@ body {
 header {
     background-color: #ffff;
     color: #335576;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
 }
 
 .logo {
@@ -14,7 +18,8 @@ header {
 }
 
 .nav { 
-    display: inline-block;   
+    display: inline-block;  
+    padding-right: 10%;
 }
 
 .nav ul {
@@ -25,7 +30,11 @@ header {
     text-decoration: none;
     list-style: none;
     margin-right: 5%;
-    color: black; 
+    
+}
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(29, 28, 28); 
 }
 
 footer {
