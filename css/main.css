@@ -1,14 +1,14 @@
 .hero {
     background-color: #FEFAF5;
     color: #335576;
-    padding:5%;
+    padding: 5%;
     display: flex;
     justify-content: space-between;
     /* margin: 0; */
 }
 
 .image {
-    height: 20rem;  
+    height: 20rem;
     justify-content: flex-end;
 }
 
@@ -18,7 +18,7 @@ button {
     padding: 0.5em 2em;
     border-radius: 2em;
     border: none;
-    outline:none;
+    outline: none;
     margin-top: 2%;
 }
 
@@ -30,37 +30,39 @@ button {
     color: #335576;
 }
 
-.container{
+.container {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
 
 .hawaii {
     height: 25rem;
-    width:17rem;
-    background-image:url(../assets/images/hawaii.jpg);
+    width: 17rem;
+    background-image: url(../assets/images/hawaii.jpg);
     background-size: cover;
-    direction:rtl;
+    direction: rtl;
     border-radius: 2%;
 }
 
 .iceland {
     height: 25rem;
-    width:17rem;
-    background-image:url(../assets/images/iceland.jpg);
+    width: 17rem;
+    background-image: url(../assets/images/iceland.jpg);
     background-size: cover;
-    direction:rtl;
-    border-radius: 2%;  
+    direction: rtl;
+    border-radius: 2%;
 }
+
 .greece {
     height: 25rem;
-    width:17rem;
-    background-image:url(../assets/images/greece.jpg);
+    width: 17rem;
+    background-image: url(../assets/images/greece.jpg);
     background-size: cover;
-    direction:rtl;
-    border-radius: 2%;  
+    direction: rtl;
+    border-radius: 2%;
 }
+
 /* .photo {
     width:10%;
 } */

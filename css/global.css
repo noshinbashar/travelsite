@@ -6,7 +6,6 @@ body {
 
 header {
     background-color: #ffff;
-    color: #335576;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -16,6 +15,12 @@ header {
 .logo {
     font-weight: bold;
     padding-left: 5%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #335576;
+
 }
 
 .nav {
