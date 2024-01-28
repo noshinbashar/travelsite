@@ -1,6 +1,30 @@
-.body {
+body {
     font-family: Verdana;
     margin: 0%;
     background-image: url(../assets/images/iceland.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+ 
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.top-header {
+    color: #DB7A4E;
+    text-align: center;
+    padding-bottom: 5%;
+    font-weight:bold;
+    font-size:large;
 }
