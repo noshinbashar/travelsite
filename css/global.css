@@ -35,7 +35,8 @@ header {
 .nav ul li {
     text-decoration: none;
     list-style: none;
-    margin-right: 5%;
+    margin-right: 10%;
+    font-size: small;
 
 }
 
@@ -43,6 +44,12 @@ header {
     text-decoration: none;
     color: rgb(29, 28, 28);
     transition: 0.2s;
+}
+
+.nav ul li a:visited,
+.nav ul li a:focus,
+.nav ul li a:active {
+    border-bottom: 2.5px solid #DB7A4E;
 }
 
 .nav ul li a:hover {

@@ -27,6 +27,10 @@ button a {
     color: white;
 }
 
+button:hover {
+    box-shadow: 0px 4px 4px black;
+}
+
 .destination {
     padding: 5% 10%;
 }
@@ -68,3 +72,10 @@ button a {
     /* border: 1px solid rgba(0, 0, 0, 0.2); */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
+
+.hawaii:hover,
+.iceland:hover,
+.greece:hover {
+    box-shadow: 0px 4px 4px black;
+}
+
