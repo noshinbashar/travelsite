@@ -21,6 +21,11 @@ button {
     margin-top: 2%;
 }
 
+button a {
+    text-decoration: none;
+    color: white;
+}
+
 .destination {
     padding: 5% 10%;
 }
