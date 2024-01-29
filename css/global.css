@@ -9,7 +9,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
 }
 
 .logo {
@@ -20,7 +19,6 @@ header {
 .logo a {
     text-decoration: none;
     color: #335576;
-
 }
 
 .nav {
@@ -37,7 +35,6 @@ header {
     list-style: none;
     margin-right: 10%;
     font-size: small;
-
 }
 
 .nav ul li a {
@@ -53,7 +50,7 @@ header {
 }
 
 .nav ul li a:hover {
-    border-bottom: 2.5px solid #DB7A4E;    
+    border-bottom: 2.5px solid #DB7A4E;
 }
 
 footer {
